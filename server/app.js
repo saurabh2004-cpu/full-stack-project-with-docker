@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors({
-    origin: '*',
+    origin: 'http://72.60.99.167:5173',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH' ],
     allowedHeaders: ['Content-Type', 'Authorization']
 })); 
